@@ -1,0 +1,12 @@
+.main-container{
+    background-color:   sandybrown;
+   /* height: 200px;*/
+   
+}
+
+.inner-1{
+    background-color:  aquamarine;
+   /* flex-grow: 0;*/
+    text-align: center;
+    margin: 3px;
+}

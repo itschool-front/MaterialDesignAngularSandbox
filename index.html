@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+    <!-- VENDOR STYLES -->
+<link type="text/css" rel="stylesheet" href="bower_components/angular-material/angular-material.min.css" />
+
+    <!-- APP STYLES -->
+<link type="text/css" rel="stylesheet" href="style.css" />
+
+    <style>
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+            display: none !important;
+         }
+    </style>
+    
+</head>
+
+<body >
+       
+   <div layout="row" class="main-container" ng-controller="main as vm">
+     <h1>{{vm.greeting}}</h1>
+     
+<div flex class="inner-1" ng-controller="list as vm">
+    <h1>{{vm.greeting}}</h1>
+</div>
+
+       
+   </div>
+    
+    <!-- VENDOR SCRIPTS -->
+<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+<script type="text/javascript" src="bower_components/angular-animate/angular-animate.min.js"></script>
+<script type="text/javascript" src="bower_components/angular-aria/angular-aria.min.js"></script>
+<script type="text/javascript" src="bower_components/angular-material/angular-material.min.js"></script>
+
+    <!-- MAIN APP -->
+<script type="text/javascript" src="app.js"></script>
+
+    <!-- CONTROLLERS -->
+<script type="text/javascript" src="components/list/list.js"></script>
+
+        
+</body>
+</html>
